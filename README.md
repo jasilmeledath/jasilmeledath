@@ -19,18 +19,13 @@ Building clean, scalable web applications with modern JavaScript ecosystems
 
 I'm a full-stack developer with a strong emphasis on backend architecture, API design, and performance-oriented systems. I build with intention—focusing on clean code, maintainable patterns, and solutions that scale.
 
-Comfortable across the entire stack: frontend interfaces, backend services, cloud infrastructure, and deployment pipelines. 
+Comfortable across the entire stack: frontend interfaces, backend services, cloud infrastructure, and deployment pipelines.
 
 ---
 
 ## Tech Stack
 
-<table>
-<tr>
-<td valign="top" width="33%">
-
-### Languages & Databases
-
+### Languages
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -39,16 +34,13 @@ Comfortable across the entire stack: frontend interfaces, backend services, clou
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
+### Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-</td>
-<td valign="top" width="33%">
-
 ### Frameworks & Libraries
-
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
@@ -60,11 +52,7 @@ Comfortable across the entire stack: frontend interfaces, backend services, clou
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white)
 
-</td>
-<td valign="top" width="33%">
-
 ### Tools & Platforms
-
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -72,10 +60,6 @@ Comfortable across the entire stack: frontend interfaces, backend services, clou
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -95,18 +79,26 @@ Comfortable across the entire stack: frontend interfaces, backend services, clou
 ## GitHub Stats
 
 <div align="center">
-  
+
 <img src="https://github-readme-stats.vercel.app/api?username=jasilmeledath&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" height="165" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jasilmeledath&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="165" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jasilmeledath&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
 
 </div>
 
 ---
 
 <div align="center">
-  
+
 **Open to collaboration and interesting projects.**
 
 [![Portfolio](https://img.shields.io/badge/jasilmeledath.dev-Visit-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jasilmeledath.dev)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=jasilmeledath&color=58a6ff&style=flat-square&label=Profile+Views)
 
 </div>
