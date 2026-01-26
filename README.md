@@ -19,7 +19,7 @@ Building clean, scalable web applications with modern JavaScript ecosystems
 
 I'm a full-stack developer with a strong emphasis on backend architecture, API design, and performance-oriented systems. I build with intention—focusing on clean code, maintainable patterns, and solutions that scale.
 
-Comfortable across the entire stack: frontend interfaces, backend services, cloud infrastructure, and deployment pipelines.
+Comfortable across the entire stack: frontend interfaces, backend services, cloud infrastructure, and deployment pipelines. 
 
 ---
 
