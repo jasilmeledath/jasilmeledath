@@ -91,6 +91,8 @@ Comfortable across the entire stack: frontend interfaces, backend services, clou
 
 ---
 
+<!-- last-active: 2026-05-11 -->
+
 <div align="center">
 
 **Open to collaboration and interesting projects.**
