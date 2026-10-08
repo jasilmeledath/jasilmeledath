@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+ <title id="title">Jasil Meledath — Full-Stack + Cloud Engineer</title><desc id="desc">I build software and the infrastructure behind it. Bangalore, India.</desc>
+ <rect x=".5" y=".5" width="599" height="399" rx="22" fill="#f7f5f0" stroke="#ddd9d0"/>
+ <circle cx="35" cy="44" r="5" fill="#137b66"/>
+ <g font-family="Arial,Helvetica,sans-serif">
+ <text x="51" y="50" font-size="17" letter-spacing="1.2" font-weight="700" fill="#137b66">FULL-STACK + CLOUD ENGINEER</text>
+ <text x="30" y="133" font-size="57" letter-spacing="-2.5" font-weight="700" fill="#17201f">Jasil Meledath.</text>
+ <text x="32" y="197" font-size="30" letter-spacing="-.5" fill="#17201f">I build software and the</text>
+ <text x="32" y="238" font-size="30" letter-spacing="-.5" fill="#17201f">infrastructure behind it.</text>
+ <path d="M32 284H568" stroke="#ddd9d0"/>
+ <text x="32" y="326" font-size="20" fill="#57645f">Bangalore, India</text>
+ <text x="32" y="360" font-size="16" letter-spacing="1.3" fill="#57645f">APPLICATIONS / CLOUD / DEVOPS</text>
+ </g><g fill="none" stroke="#137b66" stroke-width="1.5"><path d="M500 329l27-14 27 14-27 14zM500 343l27 14 27-14M500 357l27 14 27-14"/></g>
+ </svg>

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "username": "jasilmeledath",
+  "updated_at": "2026-10-08T09:22:14Z",
+  "window": {
+    "from": "2025-10-09T00:00:00Z",
+    "to": "2026-10-08T09:22:14Z",
+    "utc_calendar_dates": 365,
+    "definition": "Today and the previous 364 UTC dates; today is partial."
+  },
+  "contributions": {
+    "total": 557,
+    "commits": 539,
+    "pull_requests": 10
+  },
+  "repositories": {
+    "scope": "Public repositories owned by this user, excluding forks; archived repositories included.",
+    "count": 20,
+    "stars": 2
+  },
+  "languages": {
+    "unit": "GitHub Linguist source-code bytes",
+    "total_bytes": 5113404,
+    "bytes": {
+      "EJS": 1670713,
+      "JavaScript": 1422228,
+      "TypeScript": 500618,
+      "HTML": 426557,
+      "Java": 347475,
+      "SCSS": 299053,
+      "CSS": 293838,
+      "Python": 127638,
+      "Shell": 24698,
+      "Dockerfile": 571,
+      "Procfile": 15
+    }
+  },
+  "sources": {
+    "contributions": "GitHub GraphQL contributionsCollection; GitHub contribution eligibility and visibility rules apply.",
+    "repositories": "GitHub REST user repositories, with pagination; private repositories and forks excluded.",
+    "languages": "GitHub REST languages endpoint for every included repository; shares use all returned source bytes."
+  }
+}

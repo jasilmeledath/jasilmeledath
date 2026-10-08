@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="235" viewBox="0 0 920 235" role="img" aria-labelledby="title desc">
+<title id="title">Repository language mix for jasilmeledath</title>
+<desc id="desc">Language mix from 20 public owned non-fork repositories. EJS: 32.67% (1,670,713 bytes); JavaScript: 27.81% (1,422,228 bytes); TypeScript: 9.79% (500,618 bytes); HTML: 8.34% (426,557 bytes); Java: 6.80% (347,475 bytes); Other: 14.59% (745,813 bytes). Percentages use all 5,113,404 source bytes, not a subset. Updated 2026-10-08T09:22:14Z.</desc>
+<rect x="0.5" y="0.5" width="919" height="234" rx="22" fill="#f7f5f0" stroke="#ddd9d0"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+<text x="32" y="40" fill="#137b66" font-size="16" font-weight="700" text-anchor="start">LANGUAGE MIX</text>
+<text x="888" y="40" fill="#57645f" font-size="12" font-weight="600" text-anchor="end">SHARE OF SOURCE BYTES</text>
+<text x="32" y="65" fill="#57645f" font-size="13" font-weight="400" text-anchor="start">Across 20 public, owned repositories · Forks excluded</text>
+<defs><clipPath id="bar"><rect x="32" y="84" width="856" height="17" rx="8.5"/></clipPath></defs>
+<g clip-path="url(#bar)">
+<rect x="32.0000" y="84" width="279.6826" height="17" fill="#bd9362"/>
+<rect x="311.6826" y="84" width="238.0855" height="17" fill="#cbb747"/>
+<rect x="549.7681" y="84" width="83.8050" height="17" fill="#3178c6"/>
+<rect x="633.5731" y="84" width="71.4070" height="17" fill="#e36a46"/>
+<rect x="704.9801" y="84" width="58.1684" height="17" fill="#bb8447"/>
+<rect x="763.1485" y="84" width="124.8515" height="17" fill="#82968a"/>
+</g>
+<circle cx="37" cy="129" r="5" fill="#bd9362"/>
+<text x="50" y="134" fill="#17201f" font-size="15" font-weight="600" text-anchor="start">EJS</text>
+<text x="292" y="134" fill="#57645f" font-size="14" font-weight="400" text-anchor="end">32.7%</text>
+<circle cx="328" cy="129" r="5" fill="#cbb747"/>
+<text x="341" y="134" fill="#17201f" font-size="15" font-weight="600" text-anchor="start">JavaScript</text>
+<text x="583" y="134" fill="#57645f" font-size="14" font-weight="400" text-anchor="end">27.8%</text>
+<circle cx="619" cy="129" r="5" fill="#3178c6"/>
+<text x="632" y="134" fill="#17201f" font-size="15" font-weight="600" text-anchor="start">TypeScript</text>
+<text x="874" y="134" fill="#57645f" font-size="14" font-weight="400" text-anchor="end">9.8%</text>
+<circle cx="37" cy="163" r="5" fill="#e36a46"/>
+<text x="50" y="168" fill="#17201f" font-size="15" font-weight="600" text-anchor="start">HTML</text>
+<text x="292" y="168" fill="#57645f" font-size="14" font-weight="400" text-anchor="end">8.3%</text>
+<circle cx="328" cy="163" r="5" fill="#bb8447"/>
+<text x="341" y="168" fill="#17201f" font-size="15" font-weight="600" text-anchor="start">Java</text>
+<text x="583" y="168" fill="#57645f" font-size="14" font-weight="400" text-anchor="end">6.8%</text>
+<circle cx="619" cy="163" r="5" fill="#82968a"/>
+<text x="632" y="168" fill="#17201f" font-size="15" font-weight="600" text-anchor="start">Other</text>
+<text x="874" y="168" fill="#57645f" font-size="14" font-weight="400" text-anchor="end">14.6%</text>
+<path d="M32 187 H888" stroke="#ddd9d0"/>
+<text x="32" y="213" fill="#57645f" font-size="12" font-weight="400" text-anchor="start">GitHub Linguist · Byte share, not proficiency</text>
+<text x="888" y="213" fill="#57645f" font-size="12" font-weight="400" text-anchor="end">Updated 08 Oct 2026, 09:22 UTC</text>
+</g>
+</svg>

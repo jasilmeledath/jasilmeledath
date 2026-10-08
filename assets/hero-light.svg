@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+ <title id="title">Jasil Meledath — Full-Stack + Cloud Engineer</title>
+ <desc id="desc">I build software and the infrastructure behind it. Bangalore, India.</desc>
+ <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ddd9d0" stroke-width="0.6"/></pattern><clipPath id="clip"><rect width="1200" height="370" rx="20"/></clipPath></defs>
+ <g clip-path="url(#clip)">
+ <rect width="1200" height="370" fill="#f7f5f0"/>
+ <rect x="864" y="0" width="336" height="370" fill="url(#grid)"/>
+ <path d="M854 0V370" stroke="#ddd9d0"/>
+ <circle cx="50" cy="54" r="5" fill="#137b66"/>
+ <text x="67" y="59" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#137b66">FULL-STACK + CLOUD ENGINEER</text>
+ <text x="45" y="153" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700" letter-spacing="-3" fill="#17201f">Jasil Meledath.</text>
+ <text x="48" y="211" font-family="Arial,Helvetica,sans-serif" font-size="29" letter-spacing="-0.6" fill="#17201f">I build software and the</text>
+ <text x="48" y="248" font-family="Arial,Helvetica,sans-serif" font-size="29" letter-spacing="-0.6" fill="#17201f">infrastructure behind it.</text>
+ <path d="M48 292H805" stroke="#ddd9d0"/>
+ <text x="48" y="327" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#57645f">Bangalore, India</text>
+ <text x="805" y="327" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#57645f">APPLICATIONS / CLOUD / DEVOPS</text>
+ <g fill="#eeece5" stroke="#137b66" stroke-width="1.5" stroke-linejoin="round">
+ <path d="M913 234l116-57 116 57-116 57z"/>
+ <path d="M913 195l116-57 116 57-116 57z"/>
+ <path d="M913 156l116-57 116 57-116 57z"/>
+ </g>
+ <path d="M1029 99v192M913 156v78m232-78v78" stroke="#137b66" stroke-opacity=".4" stroke-dasharray="3 5"/>
+ <circle cx="1029" cy="99" r="5" fill="#137b66"/>
+ <circle cx="913" cy="234" r="5" fill="#137b66"/>
+ <circle cx="1145" cy="234" r="5" fill="#137b66"/>
+ <text x="1029" y="332" text-anchor="middle" font-family="monospace" font-size="12" letter-spacing="3" fill="#57645f">BUILD / SHIP / OPERATE</text>
+ </g><rect x=".5" y=".5" width="1199" height="369" rx="20" fill="none" stroke="#ddd9d0"/>
+ </svg>

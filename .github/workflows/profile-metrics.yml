@@ -1,0 +1,54 @@
+name: Refresh profile metrics
+
+on:
+  schedule:
+    # 08:47 India time. GitHub schedules can occasionally run late.
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-metrics.yml'
+      - 'scripts/update_metrics.py'
+      - 'tests/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'jasilmeledath/jasilmeledath'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+
+      - name: Verify metric calculations
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Fetch GitHub data and generate cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: jasilmeledath
+        run: python3 scripts/update_metrics.py
+
+      - name: Commit successful refresh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity-*.svg assets/languages-*.svg assets/metrics.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: refresh profile metrics"
+          git pull --rebase origin main
+          git push origin HEAD:main

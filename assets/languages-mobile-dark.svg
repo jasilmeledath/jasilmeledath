@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-labelledby="title desc">
+<title id="title">Repository language mix for jasilmeledath</title>
+<desc id="desc">Language mix from 20 public owned non-fork repositories. EJS: 32.67% (1,670,713 bytes); JavaScript: 27.81% (1,422,228 bytes); TypeScript: 9.79% (500,618 bytes); HTML: 8.34% (426,557 bytes); Java: 6.80% (347,475 bytes); Other: 14.59% (745,813 bytes). Percentages use all 5,113,404 source bytes, not a subset. Updated 2026-10-08T09:22:14Z.</desc>
+<rect x="0.5" y="0.5" width="599" height="319" rx="22" fill="#101917" stroke="#2b3c35"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+<text x="28" y="40" fill="#68dab0" font-size="18" font-weight="700" text-anchor="start">LANGUAGE MIX</text>
+<text x="28" y="65" fill="#9caea4" font-size="14" font-weight="400" text-anchor="start">Across 20 public, owned repos · Forks excluded</text>
+<defs><clipPath id="bar"><rect x="28" y="87" width="544" height="18" rx="9"/></clipPath></defs>
+<g clip-path="url(#bar)">
+<rect x="28.0000" y="87" width="177.7422" height="18" fill="#bd9362"/>
+<rect x="205.7422" y="87" width="151.3067" height="18" fill="#cbb747"/>
+<rect x="357.0489" y="87" width="53.2593" height="18" fill="#3178c6"/>
+<rect x="410.3082" y="87" width="45.3801" height="18" fill="#e36a46"/>
+<rect x="455.6883" y="87" width="36.9668" height="18" fill="#bb8447"/>
+<rect x="492.6552" y="87" width="79.3448" height="18" fill="#82968a"/>
+</g>
+<circle cx="33" cy="136" r="5" fill="#bd9362"/>
+<text x="46" y="141" fill="#eff5ef" font-size="16" font-weight="600" text-anchor="start">EJS</text>
+<text x="280" y="141" fill="#9caea4" font-size="15" font-weight="400" text-anchor="end">32.7%</text>
+<circle cx="315" cy="136" r="5" fill="#cbb747"/>
+<text x="328" y="141" fill="#eff5ef" font-size="16" font-weight="600" text-anchor="start">JavaScript</text>
+<text x="562" y="141" fill="#9caea4" font-size="15" font-weight="400" text-anchor="end">27.8%</text>
+<circle cx="33" cy="175" r="5" fill="#3178c6"/>
+<text x="46" y="180" fill="#eff5ef" font-size="16" font-weight="600" text-anchor="start">TypeScript</text>
+<text x="280" y="180" fill="#9caea4" font-size="15" font-weight="400" text-anchor="end">9.8%</text>
+<circle cx="315" cy="175" r="5" fill="#e36a46"/>
+<text x="328" y="180" fill="#eff5ef" font-size="16" font-weight="600" text-anchor="start">HTML</text>
+<text x="562" y="180" fill="#9caea4" font-size="15" font-weight="400" text-anchor="end">8.3%</text>
+<circle cx="33" cy="214" r="5" fill="#bb8447"/>
+<text x="46" y="219" fill="#eff5ef" font-size="16" font-weight="600" text-anchor="start">Java</text>
+<text x="280" y="219" fill="#9caea4" font-size="15" font-weight="400" text-anchor="end">6.8%</text>
+<circle cx="315" cy="214" r="5" fill="#82968a"/>
+<text x="328" y="219" fill="#eff5ef" font-size="16" font-weight="600" text-anchor="start">Other</text>
+<text x="562" y="219" fill="#9caea4" font-size="15" font-weight="400" text-anchor="end">14.6%</text>
+<path d="M28 245 H572" stroke="#2b3c35"/>
+<text x="28" y="273" fill="#9caea4" font-size="16" font-weight="400" text-anchor="start">Source-byte share · Not proficiency</text>
+<text x="28" y="300" fill="#9caea4" font-size="14" font-weight="400" text-anchor="start">Updated 08 Oct 2026, 09:22 UTC</text>
+</g>
+</svg>
