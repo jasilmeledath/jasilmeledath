@@ -1,106 +1,106 @@
-<div align="center">
+<a href="https://jasil-portfolio-nu.vercel.app/">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/hero-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
+    <img src="./assets/hero-light.svg" width="100%" alt="Jasil Meledath — Full-Stack + Cloud Engineer. I build software and the infrastructure behind it." />
+  </picture>
+</a>
 
-# Jasil Meledath
+<p align="center">
+  <a href="https://jasil-portfolio-nu.vercel.app/"><b>Portfolio ↗</b></a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/jasilmeledath">LinkedIn</a>
+  &nbsp; · &nbsp;
+  <a href="mailto:jasilmeledath@gmail.com">Email</a>
+</p>
 
-**Full Stack Web Developer**
+I'm a full-stack and cloud engineer based in **Bangalore, India**. I build web applications, backend systems, and the infrastructure that keeps them running—from data models and APIs to deployment pipelines and production monitoring.
 
-Building clean, scalable web applications with modern JavaScript ecosystems
+My work spans client products, open-source developer tools, and experiments with AI and persistent memory. I care about clear architecture, useful interfaces, and systems that are practical to operate.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-jasilmeledath.dev-000000?style=flat-square&logo=vercel&logoColor=white)](https://jasilmeledath.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jasilmeledath-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jasilmeledath)
-[![GitHub](https://img.shields.io/badge/GitHub-jasilmeledath-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jasilmeledath)
-[![Email](https://img.shields.io/badge/Email-contact%40jasilmeledath.dev-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@jasilmeledath.dev)
+## Selected work
 
-</div>
+### Woobe · E-commerce platform
+
+Co-developed a fashion commerce platform with separate storefront, admin, and API applications. Provisioned AWS infrastructure with Terraform and built delivery pipelines with immutable Docker images, health checks, and automatic rollback. Added Prometheus and Grafana for application and host monitoring.
+
+**TypeScript · Next.js · Node.js · PostgreSQL · Redis · AWS · Terraform**  
+[Project background ↗](https://jasil-portfolio-nu.vercel.app/#experience)
+
+### Picbox · Inventory & invoicing
+
+Built an inventory and operations system for an event-management client, covering rental stock, jobs, staff wages, and PDF invoices. Designed the backend around transactional updates and automated database backups, with a React Native interface.
+
+**React Native · Express · MongoDB**  
+[Application ↗](https://github.com/jasilmeledath/picbox-inventory-managment-app-react-native-nodejs) · [Backend ↗](https://github.com/jasilmeledath/picboxbackend)
+
+### Uniwayin · CRM platform
+
+Built a production backend for an educational consultancy, bringing leads, follow-ups, notes, and analytics into one system. Implemented access and refresh authentication, role-based permissions, audit logging, and scheduled follow-up jobs.
+
+**NestJS · MongoDB · REST APIs**  
+[Explore the API ↗](https://github.com/jasilmeledath/uniwayin-ums-api)
+
+## Tools & experiments
+
+| Project | What I'm building |
+| :--- | :--- |
+| **[TracePanel ↗](https://github.com/jasilmeledath/trace-panel-npm)** | A live request-flow visualizer for Node.js and Express. Uses AsyncLocalStorage and OpenTelemetry to connect middleware, database queries, and HTTP calls, with sensitive-field redaction. [View on npm](https://www.npmjs.com/package/trace-panel). |
+| **[Ghost memory daemon ↗](https://github.com/jasilmeledath/ghost-memory-daemon)** | The persistent memory layer behind my personal AI assistant. A Python daemon keeps Kuzu and LanceDB resident and serves graph and vector retrieval over Unix sockets. |
+
+## My working stack
+
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | TypeScript, JavaScript, Python, Java, SQL |
+| **Applications & APIs** | React, Next.js, React Native, Node.js, Express, NestJS, Fastify |
+| **Data & background work** | PostgreSQL, MongoDB, Redis, Prisma, BullMQ |
+| **Cloud & delivery** | AWS, Docker, Terraform, GitHub Actions, Linux, Nginx |
+| **Observability & AI** | Prometheus, Grafana, OpenTelemetry, LLM integrations, RAG |
+
+## GitHub activity
+
+<a href="https://github.com/jasilmeledath?tab=overview">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/activity-mobile-dark.svg" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/activity-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg" />
+    <img src="./assets/activity-light.svg" width="100%" alt="GitHub activity: contributions, commit contributions, pull request contributions, and stars. The card shows its reporting period and last successful refresh." />
+  </picture>
+</a>
+
+<sub>Scheduled to refresh daily from GitHub's API. The card shows the exact period and last successful update. [View source data](./assets/metrics.json) · [Contribution history ↗](https://github.com/jasilmeledath?tab=overview)</sub>
+
+<details>
+<summary><b>Repository languages & how these numbers are counted</b></summary>
+
+<br />
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/languages-mobile-dark.svg" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/languages-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg" />
+  <img src="./assets/languages-light.svg" width="100%" alt="Languages across my public, owned, non-fork repositories, measured by bytes of code. Full values are available in the source data." />
+</picture>
+
+- **Contributions** are GitHub's contribution-calendar total for the displayed UTC date window. Commit and pull request contributions are separate breakdowns within that window; they are not added to the total again.
+- **Visibility** follows the credentials used by the workflow and GitHub's contribution rules. Private work may not be represented; these totals may differ from a signed-in profile or a different date range.
+- **Stars and languages** cover my public, owned, non-fork repositories, including archived repositories. Stars are a current total, independent of the activity date window.
+- **Language percentages** use GitHub's reported bytes of code across that repository set. They describe repository contents, not proficiency, authorship, or time spent coding.
+- On an API failure, the previous successful cards stay in place with their original timestamp.
+
+</details>
 
 ---
 
-## About Me
-
-I'm a full-stack developer with a strong emphasis on backend architecture, API design, and performance-oriented systems. I build with intention—focusing on clean code, maintainable patterns, and solutions that scale.
-
-Comfortable across the entire stack: frontend interfaces, backend services, cloud infrastructure, and deployment pipelines.
-
----
-
-## Tech Stack
-
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
-
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-### Frameworks & Libraries
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white)
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
----
-
-## What I Build
-
-| Area | Focus |
-|------|-------|
-| **Backend Systems** | Scalable services, clean API architecture, authentication & authorization |
-| **Database Layer** | Schema design, query optimization, data modeling |
-| **Frontend** | Maintainable component architecture, state management, responsive interfaces |
-| **DevOps** | CI/CD pipelines, containerization, production-ready deployments |
-
-**Core Principles:** Clean Architecture · MVC · SOLID · RESTful Design · Agile
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=jasilmeledath&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jasilmeledath&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="165" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jasilmeledath&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
-
-</div>
-
----
-
-<!-- last-active: 2026-04-28 -->
-
-<div align="center">
-
-**Open to collaboration and interesting projects.**
-
-[![Portfolio](https://img.shields.io/badge/jasilmeledath.dev-Visit-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jasilmeledath.dev)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=jasilmeledath&color=58a6ff&style=flat-square&label=Profile+Views)
-
-</div>
+<p align="center">
+  <b>Let's build something useful.</b><br />
+  Open to collaboration on full-stack products, cloud infrastructure, and developer tools.<br /><br />
+  <a href="mailto:jasilmeledath@gmail.com">jasilmeledath@gmail.com</a>
+  &nbsp; · &nbsp;
+  <a href="https://jasil-portfolio-nu.vercel.app/">Explore my work ↗</a>
+</p>
