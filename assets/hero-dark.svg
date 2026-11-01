@@ -1,28 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
- <title id="title">Jasil Meledath — Full-Stack + Cloud Engineer</title>
- <desc id="desc">I build software and the infrastructure behind it. Bangalore, India.</desc>
- <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#2b3c35" stroke-width="0.6"/></pattern><clipPath id="clip"><rect width="1200" height="370" rx="20"/></clipPath></defs>
- <g clip-path="url(#clip)">
- <rect width="1200" height="370" fill="#101917"/>
- <rect x="864" y="0" width="336" height="370" fill="url(#grid)"/>
- <path d="M854 0V370" stroke="#2b3c35"/>
- <circle cx="50" cy="54" r="5" fill="#68dab0"/>
- <text x="67" y="59" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#68dab0">FULL-STACK + CLOUD ENGINEER</text>
- <text x="45" y="153" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700" letter-spacing="-3" fill="#eff5ef">Jasil Meledath.</text>
- <text x="48" y="211" font-family="Arial,Helvetica,sans-serif" font-size="29" letter-spacing="-0.6" fill="#eff5ef">I build software and the</text>
- <text x="48" y="248" font-family="Arial,Helvetica,sans-serif" font-size="29" letter-spacing="-0.6" fill="#eff5ef">infrastructure behind it.</text>
- <path d="M48 292H805" stroke="#2b3c35"/>
- <text x="48" y="327" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#9caea4">Bangalore, India</text>
- <text x="805" y="327" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#9caea4">APPLICATIONS / CLOUD / DEVOPS</text>
- <g fill="#18251f" stroke="#68dab0" stroke-width="1.5" stroke-linejoin="round">
- <path d="M913 234l116-57 116 57-116 57z"/>
- <path d="M913 195l116-57 116 57-116 57z"/>
- <path d="M913 156l116-57 116 57-116 57z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Jasil Meledath — Full-stack + cloud engineer</title>
+<desc id="desc">From the first interface to the last mile of infrastructure. Building web products, APIs and cloud systems in Bangalore, India. Decorative architecture lines animate gently; reduced-motion preferences are respected.</desc>
+<defs>
+ <radialGradient id="glow"><stop stop-color="#17453f"/><stop offset="1" stop-color="#0d1523"/></radialGradient>
+ <linearGradient id="edge"><stop stop-color="#62e4c5"/><stop offset="1" stop-color="#a89bff"/></linearGradient>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#293d59" stroke-width=".6"/></pattern>
+ <clipPath id="clip"><rect width="1200" height="440" rx="24"/></clipPath>
+</defs>
+<style>
+ .flow {stroke-dasharray:5 12; animation:flow 9s linear infinite}
+ .float {animation:float 7s ease-in-out infinite}
+ .signal {animation:signal 5s ease-in-out infinite}
+ @keyframes flow {to {stroke-dashoffset:-102}}
+ @keyframes float {0%,100% {transform:translateY(0)} 50% {transform:translateY(-7px)}}
+ @keyframes signal {0%,100% {opacity:.45} 50% {opacity:1}}
+ @media (prefers-reduced-motion:reduce) {.flow,.float,.signal {animation:none}}
+</style>
+<g clip-path="url(#clip)">
+ <rect width="1200" height="440" fill="#0d1523"/>
+ <ellipse cx="1150" cy="130" rx="450" ry="350" fill="url(#glow)"/>
+ <rect x="700" width="500" height="440" fill="url(#grid)" opacity=".55"/>
+ <rect width="1200" height="3" fill="url(#edge)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+
+ <text x="48" y="55" font-size="14" font-weight="700" letter-spacing="2.2" fill="#62e4c5">FULL-STACK + CLOUD ENGINEER</text>
+ <text x="43" y="153" font-size="80" font-weight="700" letter-spacing="-4" fill="#f0f5ff">Jasil Meledath.</text>
+ <text x="48" y="217" font-size="30" fill="#f0f5ff">From the first interface</text>
+ <text x="48" y="257" font-size="30" fill="#f0f5ff">to the last mile of infrastructure.</text>
+ <text x="48" y="310" font-size="17" fill="#a3b5cb">Web products. APIs. Cloud systems.</text>
+ <path d="M48 356H650" stroke="#293d59"/>
+ <text x="48" y="397" font-size="15" fill="#a3b5cb">Bangalore, India</text>
+ <text x="650" y="397" font-size="12" font-weight="700" letter-spacing="2" text-anchor="end" fill="#62e4c5">BUILD / SHIP / OPERATE</text>
+ <g class="float">
+  <rect x="753" y="65" width="392" height="300" rx="16" fill="#142238" stroke="#293d59"/>
+  <path d="M753 108H1145" stroke="#293d59"/>
+  <circle cx="774" cy="86" r="4" fill="#62e4c5"/><circle cx="790" cy="86" r="4" fill="#a89bff"/><circle cx="806" cy="86" r="4" fill="#a3b5cb"/>
+  <text x="1125" y="90" text-anchor="end" font-family="monospace" font-size="11" fill="#a3b5cb">jasil / workspace</text>
+  <text x="781" y="145" font-family="monospace" font-size="13" fill="#a3b5cb">$ build something useful</text>
+  <path d="M823 221V259H1075V221M949 221V284" fill="none" stroke="#293d59" stroke-width="2"/>
+  <path class="flow" d="M823 221V259H1075V221M949 221V284" fill="none" stroke="#62e4c5" stroke-width="2"/>
+<rect x="779" y="174" width="88" height="49" rx="9" fill="#0d1523" stroke="#293d59"/>
+ <text x="823" y="195" text-anchor="middle" font-family="monospace" font-size="15" fill="#62e4c5">&lt;/&gt;</text>
+ <text x="823" y="213" text-anchor="middle" font-size="9" letter-spacing="1" fill="#a3b5cb">INTERFACE</text><rect x="905" y="174" width="88" height="49" rx="9" fill="#0d1523" stroke="#293d59"/>
+ <text x="949" y="195" text-anchor="middle" font-family="monospace" font-size="15" fill="#62e4c5">{ }</text>
+ <text x="949" y="213" text-anchor="middle" font-size="9" letter-spacing="1" fill="#a3b5cb">API</text><rect x="1031" y="174" width="88" height="49" rx="9" fill="#0d1523" stroke="#293d59"/>
+ <text x="1075" y="195" text-anchor="middle" font-family="monospace" font-size="15" fill="#62e4c5">↑</text>
+ <text x="1075" y="213" text-anchor="middle" font-size="9" letter-spacing="1" fill="#a3b5cb">CLOUD</text>
+ <rect x="860" y="283" width="178" height="40" rx="20" fill="#0d1523" stroke="#293d59"/>
+ <circle class="signal" cx="882" cy="303" r="4" fill="#62e4c5"/>
+ <text x="899" y="307" font-family="monospace" font-size="12" fill="#f0f5ff">ship. learn. repeat.</text>
  </g>
- <path d="M1029 99v192M913 156v78m232-78v78" stroke="#68dab0" stroke-opacity=".4" stroke-dasharray="3 5"/>
- <circle cx="1029" cy="99" r="5" fill="#68dab0"/>
- <circle cx="913" cy="234" r="5" fill="#68dab0"/>
- <circle cx="1145" cy="234" r="5" fill="#68dab0"/>
- <text x="1029" y="332" text-anchor="middle" font-family="monospace" font-size="12" letter-spacing="3" fill="#9caea4">BUILD / SHIP / OPERATE</text>
- </g><rect x=".5" y=".5" width="1199" height="369" rx="20" fill="none" stroke="#2b3c35"/>
- </svg>
+ <text x="949" y="398" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="2" fill="#a3b5cb">IDEA → PRODUCTION</text>
+</g></g><rect x=".5" y=".5" width="1199" height="439" rx="24" fill="none" stroke="#293d59"/></svg>

@@ -26,8 +26,8 @@ from typing import Any
 UTC = timezone.utc
 PAGE_SIZE = 100
 PALETTES = {
-    "light": {"bg": "#f7f5f0", "border": "#ddd9d0", "text": "#17201f", "muted": "#57645f", "accent": "#137b66"},
-    "dark": {"bg": "#101917", "border": "#2b3c35", "text": "#eff5ef", "muted": "#9caea4", "accent": "#68dab0"},
+    "light": {"bg": "#f4f7fb", "border": "#d9e2ed", "text": "#18263b", "muted": "#52647b", "accent": "#087e72"},
+    "dark": {"bg": "#101b2b", "border": "#273951", "text": "#edf4ff", "muted": "#a3b5cb", "accent": "#62e4c5"},
 }
 LANGUAGE_COLORS = {
     "JavaScript": "#cbb747", "TypeScript": "#3178c6", "Python": "#5689ba",
@@ -265,9 +265,10 @@ def activity_svg(metrics: dict[str, Any], theme: str) -> str:
         (metrics["contributions"]["total"], "Contributions", "Past 365 UTC days"),
         (metrics["contributions"]["commits"], "Commit contributions", "Past 365 UTC days"),
         (metrics["contributions"]["pull_requests"], "Pull requests", "Contribution count"),
-        (metrics["repositories"]["stars"], "Public repo stars", "Current total · owned repos"),
+        (metrics["repositories"]["count"], "Public repositories", "Owned repos · forks excluded"),
     ]
-    parts = [svg_text(32, 40, "GITHUB ACTIVITY", p["accent"], 16, 700)]
+    parts = [svg_text(32, 40, "GITHUB ACTIVITY", p["accent"], 16, 700),
+             svg_text(888, 40, "365-DAY SNAPSHOT", p["muted"], 12, 600, "end")]
     for index, (number, label, detail) in enumerate(values):
         x = 32 + index * 222
         if index:
@@ -281,7 +282,7 @@ def activity_svg(metrics: dict[str, Any], theme: str) -> str:
     parts.append(svg_text(32, 213, f"{start} – {end} · Today is partial", p["muted"], 12))
     parts.append(svg_text(888, 213, f"Updated {friendly_timestamp(metrics['updated_at'])}", p["muted"], 12, anchor="end"))
     description = "; ".join(f"{label}: {number:,}" for number, label, _ in values)
-    description += f". Contributions cover {start} through {end}, UTC, with today partial. Stars cover owned public non-fork repositories. Updated {metrics['updated_at']}."
+    description += f". Contributions cover {start} through {end}, UTC, with today partial. Repositories are public, owned, and non-fork. Updated {metrics['updated_at']}."
     return svg_shell("GitHub activity for " + metrics["username"], description, p, parts)
 
 
@@ -337,7 +338,7 @@ def activity_mobile_svg(metrics: dict[str, Any], theme: str) -> str:
         (metrics["contributions"]["total"], "Contributions", "Past 365 UTC days"),
         (metrics["contributions"]["commits"], "Commit contributions", "Past 365 UTC days"),
         (metrics["contributions"]["pull_requests"], "Pull requests", "Contribution count"),
-        (metrics["repositories"]["stars"], "Public repo stars", "Current total · owned repos"),
+        (metrics["repositories"]["count"], "Public repositories", "Owned repos · forks excluded"),
     ]
     parts = [svg_text(28, 40, "GITHUB ACTIVITY", p["accent"], 18, 700)]
     parts.append(f'<path d="M300 73 V305 M28 198 H572" stroke="{p["border"]}"/>')
@@ -354,7 +355,7 @@ def activity_mobile_svg(metrics: dict[str, Any], theme: str) -> str:
     parts.append(svg_text(28, 379, "Today is partial", p["muted"], 14))
     parts.append(svg_text(28, 401, f"Updated {friendly_timestamp(metrics['updated_at'])}", p["muted"], 14))
     description = "; ".join(f"{label}: {number:,}" for number, label, _ in values)
-    description += f". Contributions cover {start} through {end}, UTC, with today partial. Stars cover owned public non-fork repositories. Updated {metrics['updated_at']}."
+    description += f". Contributions cover {start} through {end}, UTC, with today partial. Repositories are public, owned, and non-fork. Updated {metrics['updated_at']}."
     return svg_shell("GitHub activity for " + metrics["username"], description, p, parts, height=420, width=600)
 
 

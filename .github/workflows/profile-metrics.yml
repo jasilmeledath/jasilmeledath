@@ -2,8 +2,8 @@ name: Refresh profile metrics
 
 on:
   schedule:
-    # 08:47 India time. GitHub schedules can occasionally run late.
-    - cron: '17 3 * * *'
+    # Hourly, away from the busy start of the hour. Schedules may run late.
+    - cron: '17 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -22,7 +22,7 @@ concurrency:
 jobs:
   refresh:
     if: github.repository == 'jasilmeledath/jasilmeledath'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
       contents: write
